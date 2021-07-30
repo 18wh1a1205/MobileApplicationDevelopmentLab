@@ -76,16 +76,16 @@ public class OneFragment extends Fragment {
     }
 
     private int getStringId(String candidateName){
-        if(candidateName.equals("Mamatha")){
-            return R.string.Mamatha;
-        }else if(candidateName.equals("Monika")){
-            return R.string.Monika;
-        }else if(candidateName.equals("Neha")){
-            return R.string.Neha;
-        }else if(candidateName.equals("Anusha")) {
-            return R.string.Anusha;
+        if(candidateName.equals("Nikitha")){
+            return R.string.Nikitha;
+        }else if(candidateName.equals("Akhila")){
+            return R.string.Akhila;
+        }else if(candidateName.equals("Navya")){
+            return R.string.Navya;
+        }else if(candidateName.equals("Akshitha")) {
+            return R.string.Akshitha;
         }else {
-            return R.string.Monika;
+            return R.string.Nikitha;
         }
     }
 
